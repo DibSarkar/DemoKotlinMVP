@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="10dp"
+
+
+
+    >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+
+    android:id="@+id/rl_cart1"
+    android:layout_height="wrap_content"
+    >
+    <android.support.v7.widget.CardView
+        android:id="@+id/rl_cart"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical"
+        app:cardCornerRadius="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+
+        android:clipToPadding="false"
+
+
+        app:cardElevation="4dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+        android:layout_width="match_parent"
+       android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                app:cardCornerRadius="10dp"
+                android:elevation="0dp"
+                android:clipToPadding="false"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="@dimen/pkg_size"
+                    android:layout_height="@dimen/pkg_size"
+
+                    android:id="@+id/iv_pkg"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/no_image"/>
+
+
+            </android.support.v7.widget.CardView>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/pkg_text_name_size"
+                android:id="@+id/tv_name"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+
+                android:textColor="#1e2a37"
+
+                android:text="Washing of Sedan car"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/rupee_size"
+                    android:layout_gravity="center"
+                    android:scaleType="centerCrop"
+                    android:layout_height="@dimen/rupee_size"
+                    android:src="@drawable/rupee_symbol"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ff061d"
+                    android:id="@+id/tv_price"
+                    android:layout_marginLeft="3dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/pkg_text_price_size"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+
+
+
+                    android:text="1200.00"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#8897a7"
+                android:textSize="@dimen/pkg_text_price_size"
+                android:id="@+id/tv_time"
+
+
+
+                android:layout_marginTop="5dp"
+                android:text="5hrs to 8hrs"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    </RelativeLayout>
+<!--        <ImageView
+            android:layout_width="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="bottom|right"
+
+
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+
+            android:layout_height="25dp"
+            android:src="@drawable/delete"/>-->
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
+    <ImageView
+        android:id="@+id/iv_delete"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/delete"
+        android:layout_marginRight="12dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginTop="@dimen/cart_delete_icon_margin"
+        android:layout_alignTop="@+id/rl_cart1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

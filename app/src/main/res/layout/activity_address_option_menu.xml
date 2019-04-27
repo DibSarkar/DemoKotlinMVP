@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+
+
+    <include
+        layout="@layout/activity_address_option"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <include
+            android:id="@+id/nav_header_home"
+            layout="@layout/nav_header_home" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="#2eb1ff"/>
+        <android.support.design.widget.NavigationView
+            android:id="@+id/nav_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="#00a0ff"
+            android:paddingLeft="15dp"
+            android:paddingTop="25dp"
+            app:itemBackground="@drawable/drawer_selected_bg"
+
+            android:paddingBottom="25dp"
+            android:paddingRight="15dp"
+            app:itemTextColor="#fff"
+            android:theme="@style/NavigationTheme"
+
+            android:fitsSystemWindows="true"
+            app:itemIconTint="@color/colorAccent"
+            app:menu="@menu/home_drawer" />
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.DrawerLayout>

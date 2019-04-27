@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#fff"
+    android:id="@+id/rl_order_item"
+
+    android:layout_marginBottom="10dp"
+
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+
+        android:id="@+id/rl_cart1"
+        android:layout_height="wrap_content"
+        >
+        <android.support.v7.widget.CardView
+            android:id="@+id/rl_cart"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical"
+            app:cardCornerRadius="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+
+            android:clipToPadding="false"
+
+
+            app:cardElevation="4dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    app:cardCornerRadius="10dp"
+                    android:elevation="8dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:clipToPadding="false"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="@dimen/pkg_size"
+                        android:layout_height="@dimen/pkg_size"
+
+                        android:id="@+id/iv_pkg"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/app_logo"/>
+
+
+                </android.support.v7.widget.CardView>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/pkg_text_name_size"
+                        android:maxLines="1"
+                        android:ellipsize="end"
+                        android:id="@+id/tv_bookingId"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+
+                        android:textColor="#1e2a37"
+
+                        android:text=""/>
+
+
+
+
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5dp"
+                            android:layout_marginTop="10dp"
+                            android:background="#cfcfcf"/>
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Order Status"
+                            android:textColor="#1e2a37"
+                            android:textSize="15dp"/>
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="20dp"
+
+                        android:orientation="horizontal">
+                        <ImageView
+                            android:id="@+id/iv_order_status"
+                            android:layout_width="10dp"
+                            android:layout_gravity="center"
+                            android:layout_height="10dp"
+
+                            android:src="@drawable/dot_pending"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Pending"
+                            android:id="@+id/tv_order_status"
+                            android:textSize="12dp"
+
+                            android:textColor="#1e2a37"
+                            android:layout_marginLeft="10dp"
+
+                            android:layout_height="wrap_content"
+                            />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+
+</RelativeLayout>

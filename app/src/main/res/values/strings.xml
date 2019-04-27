@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DemoKotlin</string>
+    <string name="str_footer">for enquiry : 1800 200 6444</string>
+    <string name="address">Name I MJ Automobiles \n Address : 11,l- Amiliha , in front of KIOT boys college \n GT Road Chaubepur,Kanpur, Nagar - 209217 Uttar Pradesh</string>
+    <string name="contact">7318255828</string>
+    <string name="test_razorpay_key">rzp_test_OZXov4tJkVslf0</string>
+    <string name="live_razorpay_key">rzp_live_o8pORfCHrVWzPT</string>
+
+</resources>

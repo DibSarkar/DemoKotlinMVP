@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#25456a</color>
+    <color name="colorPrimaryDark">#25456a</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorsign">#041737</color>
+    <color name="colorEmailHint">#6aa2c9</color>
+    <color name="colorEmailText">#25456a</color>
+    <color name="blueColor">#00a0ff</color>
+    <color name="dividerColor">#7dcfff</color>
+    <color name="gold">#ff9600</color>
+    <color name="pending">#4a88da</color>
+    <color name="processed">#4B0082</color>
+    <color name="completed">#35ba9b</color>
+    <color name="cancelled">#eb5463</color>
+    <color name="gray">#D7D7DA</color>
+
+
+    <color name="bg_gold">#F7D17E</color>
+    <color name="bg_white">#FFFFFF</color>
+    <color name="bg_off_white">#F2F2F2</color>
+    <color name="transparent">#00000000</color>
+    <color name="bg_dark_gray">#494949</color>
+    <color name="bg_light_gray">#E6E6E6</color>
+    <color name="bg_light_black">#1A1A1A</color>
+    <color name="bg_lighter_black">#3F3F3F</color>
+    <color name="text_black">#000000</color>
+    <color name="text_gray">#636363</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_dark_gold">#DEB865</color>
+</resources>

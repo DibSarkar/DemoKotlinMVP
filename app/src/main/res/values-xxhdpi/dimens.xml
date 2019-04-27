@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="welcome_back_top_margin">200dp</dimen>
+    <dimen name="welcome_text">35dp</dimen>
+    <dimen name="box_size">55dp</dimen>
+    <dimen name="searchbox_size">50dp</dimen>
+    <dimen name="padding">30dp</dimen>
+    <dimen name="profile_image_margins">55dp</dimen>
+    <dimen name="margin_top">50dp</dimen>
+    <dimen name="margin_pkg_img">40dp</dimen>
+    <dimen name="margin_top_signup_btn">40dp</dimen>
+    <dimen name="margin_top_signup_fields">30dp</dimen>
+    <dimen name="margin_top_otp_fields">100dp</dimen>
+    <dimen name="margin_search">20dp</dimen>
+    <dimen name="cart_delete_icon_margin">110dp</dimen>
+    <dimen name="review_margin">10dp</dimen>
+    <dimen name="edit_cam_margin">5dp</dimen>
+    <dimen name="myaccount_prof_margin">10dp</dimen>
+
+    <dimen name="toolbar_icons_size">25dp</dimen>
+    <dimen name="pkg_size">110dp</dimen>
+    <dimen name="pkg_text_name_size">18dp</dimen>
+    <dimen name="pkg_text_price_size">14dp</dimen>
+    <dimen name="toolbar_size">55dp</dimen>
+    <dimen name="rupee_size">15dp</dimen>
+    <dimen name="pkg_details_img_size">240dp</dimen>
+    <dimen name="pkg_details_name_size">20dp</dimen>
+    <dimen name="pkg_details_desc_size">15dp</dimen>
+    <dimen name="pkg_details_price_size">18dp</dimen>
+    <dimen name="pkg_details_price_text_size">22dp</dimen>
+    <dimen name="timer_size">17dp</dimen>
+    <dimen name="timer_text_size">14dp</dimen>
+    <dimen name="padding_add_cart">40dp</dimen>
+    <dimen name="text_add_cart">16dp</dimen>
+    <dimen name="cart_btn_size">60dp</dimen>
+    <dimen name="delivery_charge_text_size">18dp</dimen>
+    <dimen name="black_rupee_icon_size">15dp</dimen>
+    <dimen name="cart_rupee_text_size">19dp</dimen>
+    <dimen name="time_pref_text_size">18dp</dimen>
+    <dimen name="address_box_size">130dp</dimen>
+    <dimen name="address_text_size">18dp</dimen>
+    <dimen name="reviews_box_size">28dp</dimen>
+    <dimen name="myaccount_prof_size">135dp</dimen>
+    <dimen name="common_text_size">17dp</dimen>
+    <dimen name="edit_cam_size">38dp</dimen>
+    <dimen name="address_option_text_size">18dp</dimen>
+
+</resources>

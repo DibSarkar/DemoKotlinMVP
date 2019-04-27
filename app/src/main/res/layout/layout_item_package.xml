@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#fff"
+
+    android:layout_marginBottom="20dp"
+
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:cardCornerRadius="10dp"
+            android:clipToPadding="true"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:layout_width="@dimen/pkg_size"
+                android:layout_height="@dimen/pkg_size"
+                android:layout_gravity="center"
+                android:id="@+id/iv_pkg"
+                android:scaleType="centerCrop"
+
+
+                android:src="@drawable/no_image"/>
+
+       <!--     <ImageView
+                android:id="@+id/imgTourismHr"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/pkg_det"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/pkg_details_img_size"
+                android:scaleType="fitXY" />-->
+
+        </android.support.v7.widget.CardView>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/pkg_text_name_size"
+                android:ellipsize="end"
+                android:lines="1"
+                android:id="@+id/tv_name"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+
+                android:textColor="#1e2a37"
+
+                android:text="Washing of Sedan car"/>
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="5dp"
+               android:orientation="horizontal">
+
+           <ImageView
+               android:layout_width="@dimen/rupee_size"
+               android:layout_gravity="center"
+               android:scaleType="centerCrop"
+               android:layout_height="@dimen/rupee_size"
+               android:src="@drawable/rupee_symbol"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ff061d"
+                android:id="@+id/tv_price"
+                android:layout_marginLeft="3dp"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="@dimen/pkg_text_price_size"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+
+
+
+                android:text="1200.00"/>
+           </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#8897a7"
+                android:textSize="@dimen/pkg_text_price_size"
+                android:id="@+id/tv_time"
+
+
+
+                android:layout_marginTop="5dp"
+                android:text="5hrs to 8hrs"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

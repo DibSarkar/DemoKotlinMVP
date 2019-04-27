@@ -1,0 +1,79 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">#25456a</item>
+    </style>
+
+    <style name="InputLayoutTheme" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/text_gray</item>
+        <item name="colorControlActivated">@color/text_white</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="InputLayout" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">15sp</item>
+
+        <item name="android:textColor">#25456a</item>
+        <item name="android:textColorHint">#5e95ba</item>
+        <item name="colorAccent">#5e95ba</item>
+        <item name="colorControlNormal">#5e95ba</item>
+
+        <item name="colorControlHighlight">#5e95ba</item>
+        <item name="colorControlActivated">#5e95ba</item>
+    </style>
+    <style name="InputLayoutWhite" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">17sp</item>
+
+        <item name="android:textColor">#fff</item>
+        <item name="android:textColorHint">#fff</item>
+        <item name="colorAccent">#fff</item>
+        <item name="colorControlNormal">#fff</item>
+
+        <item name="colorControlHighlight">#fff</item>
+        <item name="colorControlActivated">#fff</item>
+    </style>
+
+    <style name="InputLayout1" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">15sp</item>
+
+        <item name="android:textColor">#25456a</item>
+        <item name="android:textColorHint">#9b9b9b</item>
+        <item name="colorAccent">#9b9b9b</item>
+        <item name="colorControlNormal">#9b9b9b</item>
+
+        <item name="colorControlHighlight">#9b9b9b</item>
+        <item name="colorControlActivated">#9b9b9b</item>
+    </style>
+
+    <style name="MyAlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!-- Used for the buttons -->
+        <item name="colorAccent">#fff</item>
+        <!-- Used for the title and text -->
+        <item name="android:textColorPrimary">#fff</item>
+        <!-- Used for the background -->
+        <item name="android:background">@color/blueColor</item>
+    </style>
+
+
+    <style name="NavigationTheme" parent="AppTheme">
+    <item name="android:listDivider">@color/dividerColor</item>
+        <item name="android:dividerHeight">10dp</item>
+
+    <item name="android:textSize">17sp</item><!-- text size in menu-->
+    <item name="listPreferredItemHeightSmall">40dp</item>
+    </style>
+
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/gray</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+    </style>
+
+    <style name="DialogTheme">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+</resources>
