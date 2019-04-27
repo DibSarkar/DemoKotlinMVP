@@ -42,7 +42,8 @@ class AppDataManager : DataManager {
     var mPreferencesHelper: PreferencesHelper
      var mContext: Context
 
-    @Inject constructor(
+    @Inject
+    constructor(
         mApiHelper: ApiHelper,
         mPreferencesHelper: PreferencesHelper,
         @ApplicationContext mContext: Context

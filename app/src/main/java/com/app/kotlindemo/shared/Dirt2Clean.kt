@@ -21,7 +21,7 @@ class Dirt2Clean : Application() {
 
     internal var applicationComponent = DaggerApplicationComponent.builder()
         .applicationModule(ApplicationModule(this))
-        .networkModule(NetworkModule(Constants.baseUrlLive)).build()
+        .networkModule(NetworkModule(Constants.baseUrlLocal)).build()
 
     @Inject lateinit var mDataManager: DataManager
 

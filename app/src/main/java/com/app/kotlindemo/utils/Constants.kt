@@ -5,7 +5,7 @@ object Constants {
 
     var baseUrlLive = "http://brochureguru.com/rajdip/dirt2clean/api/"
 
-    var baseUrlLocal = "http://192.168.5.51/carwashApp/api/"
+    var baseUrlLocal = ""
 
     var OPEN_FROM_LOGIN = 1
     var OPEN_FROM_MYPROFILE = 2

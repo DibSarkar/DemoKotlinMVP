@@ -42,7 +42,7 @@ import com.app.kotlindemo.utils.CommonUtils
 import com.app.kotlindemo.utils.NetworkUtils
 import timber.log.Timber
 
-abstract class BaseActivity : AppCompatActivity(), MvpView /*BaseFragment.Callback*/ {
+ abstract class BaseActivity : AppCompatActivity(), MvpView /*BaseFragment.Callback*/ {
 
     private var mProgressDialog: ProgressDialog? = null
 

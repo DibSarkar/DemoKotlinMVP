@@ -9,9 +9,6 @@ open class BasePresenter<V : MvpView>
 constructor(val dataManager: DataManager) : MvpPresenter<V> {
 
     private var mvpView: V? = null
-
-
-
     val isViewAttached: Boolean
         get() = mvpView != null
 

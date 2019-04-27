@@ -37,7 +37,7 @@ class LoginActivity : BaseActivity(), LoginMvpView {
 
     @Inject
     lateinit var loginPresenter: LoginPresenter<LoginMvpView>
-    internal var dialog: Dialog? = null
+    var dialog: Dialog? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
